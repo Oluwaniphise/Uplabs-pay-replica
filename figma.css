@@ -1,0 +1,64 @@
+body, .navbar{
+    background:#f5f5f5 !important;
+  
+}
+
+
+nav ul li{
+    margin-right:1.8rem;
+}
+.navbar-brand p{
+    position:relative !important;
+    left:2rem !important;
+    font-style: italic;
+}
+nav ul li a:hover{
+    color:rgb(59, 109, 219) !important;
+}
+.login a{
+    color:rgb(59, 109, 219) !important;
+}
+
+.get_started{
+    background:rgb(59, 109, 219);
+    border-radius:5px;
+    padding:1px;
+
+   
+}
+
+.get_started a{
+    color:white !important;
+}
+.get_started a:hover{
+    color:white !important;
+}
+h1{
+    color:rgb(2, 2, 44);
+}
+
+p{
+    color:rgb(2, 2, 44);
+}
+
+@media screen and (max-width:991px){
+    .get_started{
+        background:rgb(59, 109, 219);
+        border-radius:5px;
+        padding-left:5px;
+        width:100px;
+    
+       
+    }
+
+}
+
+@media screen and (max-width:468px){
+    h1{
+        color:rgb(2, 2, 44);
+        font-size:1.8rem;
+    }
+    
+  
+
+}
