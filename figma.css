@@ -5,45 +5,40 @@ body, .navbar{
 nav a p{
 
 
-color: #0045FF;
+ 
+    
+    font-family: Cera Pro;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19px;
+    
+    color: #0045FF;
+
 
 
 } 
-nav a p:after{
+nav a p:before{
     content:'';
-    background: #FFFFFF;
+
+   
+    background: red;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
 }
 .oval{
     /* Oval */
-
+background: #FFFFFF;
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
 position: absolute;
 width: 52px;
 height: 52px;
 left: 96px;
 top: calc(50% - 52px/2 - 496px);
 
-background: #FFFFFF;
-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+
 
 }
 
-
-
-/* position: absolute;
-width: 77px;
-height: 18px;
-left: 1240px;
-top: 37px;
-
-font-family: Circular Std;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 18px;
-
-
-color: #FFFFFF; */
 
 
 nav ul li{
@@ -82,9 +77,10 @@ h1{
 p{
     color:#152C5B;
 }
-.video{
-    border-radius:5px;
-}
+
+      
+    
+
 
 
 
@@ -107,7 +103,10 @@ p{
         color: #152C5B;;
         font-size:1.8rem;
     }
-    
+    video{
+        width:280px;
+        height:400px;
+    }
   
 
 }
